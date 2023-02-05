@@ -1,15 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 
 body {
-  background-color:gainsboro;
+  background-color: gainsboro;
   width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'VT323', monospace;
+  font-family: "VT323", monospace;
 }
 
 .menu {
@@ -20,8 +19,8 @@ body {
 }
 
 #p1 {
-  width:100px;
-  height:100px;
+  width: 150px;
+  height: 250px;
 }
 
 .p1Info {
@@ -31,22 +30,20 @@ body {
   align-items: center;
   height: 300px;
   width: 300px;
-/*   background: red; */
 }
 
 #p1Name {
-  font-size: 30px;
+  font-size: 3.5rem;
 }
 
 #p1Health {
-  font-size: 50px;
+  font-size: 5rem;
 }
 
-#p2{
-  width:100px;
-  height:100px;
+#p2 {
+  width: 150px;
+  height: 200px;
 }
-
 
 .p2Info {
   display: flex;
@@ -55,75 +52,81 @@ body {
   align-items: center;
   height: 300px;
   width: 300px;
-/*   background: red; */
+  /*   background: red; */
 }
 
 #p2Name {
-  font-size: 30px;
+  font-size: 3.5rem;
 }
 
 #p2Health {
-  font-size: 50px;
+  font-size: 5rem;
 }
 
 .playerControls {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
- 
+  font-size: 1.5rem;
+  margin: 20px 0px 0px 0px;
 }
 
-.AttackDiv{
+.AttackDiv {
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: space-around;
   height: 40px;
   width: 100px;
-/*   background: blue; */
+  /*   background: blue; */
 }
 
 .HealDiv {
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: space-around;
   height: 40px;
   width: 100px;
-/*   background: yellow; */
+  /*   background: yellow; */
 }
 
 #attack {
   height: 30px;
-  width: 60px;
+  /* width: 80px; */
   border-radius: 50px;
-  border:none;
-  background: #FFFF01;
+  border: none;
+  background: #ffff01;
   outline: none;
-
+  font-size: 1.5rem;
+  margin: 0px 4px;
+  padding: 0px 10px;
 }
 
 #heal {
   height: 30px;
-  width: 60px;
+  width: 80px;
   border-radius: 50px;
-  border:none;
-  background: #7DFFFF;
+  border: none;
+  background: #7dffff;
   outline: none;
-
+  font-size: 1.5rem;
 }
 
 #play {
   height: 50px;
   width: 120px;
   border-radius: 20px;
-/*   border:none; */
   background: #02cf02;
   outline: none;
   color: white;
+  margin: 0px 20px;
+  padding: 0px 10px;
+  border: none;
+  font-size: 1.5rem;
 }
 
 #result {
   font-size: 50px;
-  color : #3dff3d;
+  color: #3dff3d;
 }
 
 #reset {
@@ -131,17 +134,20 @@ body {
   height: 50px;
   width: 100px;
   border-radius: 20px;
-/*   border:none; */
-  background: #FF8800;
+  /*   border:none; */
+  background: #ff8800;
   outline: none;
   color: white;
+  border: none;
+  padding: 0px 10px;
+  font-size: 1.5rem;
 }
 
 .resultContainer {
-    display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height:150px;
+  height: 150px;
   width: 300px;
 }
